@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 // alert("Hello");
 /*const result = confirm("Are you here?");
 console.log(result);
@@ -45,7 +45,7 @@ console.log(decr);  */
 
 Проверить, чтобы все работало без ошибок в консоли */
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', ' ');
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,

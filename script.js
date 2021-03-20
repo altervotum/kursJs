@@ -74,9 +74,7 @@ for (let i=0;i<2;i++){
     else{
         console.log('error, repeat answer, please');
         i--;
-    }
-    
-          
+    }            
 }
 
 console.log(personalMovieDB);

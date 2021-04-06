@@ -89,3 +89,8 @@ if (personalMovieDB.count < 10){
 
 console.log(personalMovieDB); */
 
+function showFirstMessage() {
+    console.log("Hello World!");
+}
+
+showFirstMessage();

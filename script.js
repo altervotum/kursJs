@@ -1,6 +1,6 @@
 'use strict';
-// alert("Hello");
-/*const result = confirm("Are you here?");
+/* alert("Hello");
+const result = confirm("Are you here?");
 console.log(result);
 
 const answer = prompt(" your age is 18?");
@@ -20,9 +20,9 @@ console.log(decr);
 ++incr;
 --decr;
 console.log(incr);
-console.log(decr);  */
+console.log(decr);  
 
-/* Задание на урок:
+ Задание на урок:
 
 1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
 'Сколько фильмов вы уже посмотрели?'
@@ -43,7 +43,7 @@ console.log(decr);  */
         'logan': '8.1'
     }
 
-Проверить, чтобы все работало без ошибок в консоли */
+Проверить, чтобы все работало без ошибок в консоли 
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -62,7 +62,7 @@ const c = prompt('Один из последних просмотренных ф
 const d = prompt('На сколько оцените его?', '');
 
 personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;*/
+personalMovieDB.movies[c] = d;
 
 for (let i=0; i<2; i++){
     const a = prompt('Один из последних просмотренных фильмов?', ''),
@@ -87,4 +87,5 @@ if (personalMovieDB.count < 10){
     console.log("Произошла ошибка");
 }
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
